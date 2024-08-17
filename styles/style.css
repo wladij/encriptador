@@ -6,10 +6,7 @@
     font-style: normal;
 }
 
-body {
-    -webkit-text-size-adjust: 100%;
-    font-size: 16px;
-}
+
 
 .logo {
     padding-top: 10px;
@@ -150,6 +147,11 @@ footer {
 @media (max-width: 599px) and (min-width: 300px) {
     .logo {
         width: 15%;
+    }
+
+    body {
+        -webkit-text-size-adjust: 100%;
+        font-size: 18px;
     }
 
     main{
