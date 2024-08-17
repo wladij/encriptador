@@ -188,7 +188,7 @@ footer {
 
     .mensaje{
         margin-top: 7%;
-        height: 70px;
+        height: 110px;
         background-image: none;
     }
 
@@ -196,5 +196,8 @@ footer {
         height: 70px;
     }
 
-    
+    .copiar{
+        margin-left: 0;
+        margin-top: 2px;
+    }
 }
