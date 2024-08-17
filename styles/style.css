@@ -37,7 +37,7 @@ main{
 
 .mensaje {
     background: white;
-    background-image: url("assets/Muneco.png");
+    background-image: url("/assets/Muneco.png");
     background-repeat: no-repeat;
     background-position: center;
     border: none;
@@ -101,6 +101,16 @@ main{
 
 .informacion.error {
     color: red;
+    animation: brincar 0.5s ease infinite;
+}
+
+@keyframes brincar {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
 }
 
 
