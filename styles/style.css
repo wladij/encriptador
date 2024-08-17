@@ -188,5 +188,13 @@ footer {
 
     .mensaje{
         margin-top: 7%;
+        height: 70px;
+        background-image: none;
     }
+
+    .text-area{
+        height: 70px;
+    }
+
+    
 }
