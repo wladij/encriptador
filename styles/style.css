@@ -171,9 +171,12 @@ footer {
         justify-content: space-around;
     }
 
+    input[type="text"],
+    textarea {
+        font-size: 16px;
+    }
+
     .mensaje{
         margin-top: 7%;
-        
-        
     }
 }
