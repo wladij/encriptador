@@ -37,7 +37,7 @@ main{
 
 .mensaje {
     background: white;
-    background-image: url("/assets/Muneco.png");
+    background-image: url("../assets/Muneco.png");
     background-repeat: no-repeat;
     background-position: center;
     border: none;
@@ -154,7 +154,7 @@ footer {
     }
 }
 
-@media (max-width: 599px) and (min-width: 300px) {
+@media (max-width: 599px) and (min-width: 200px) {
     .logo {
         width: 15%;
     }
